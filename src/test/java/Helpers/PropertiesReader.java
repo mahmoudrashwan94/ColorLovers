@@ -6,6 +6,11 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 
+/**
+ * This class is for reading from a property file
+ * @author RashwanM3
+ *
+ */
 public class PropertiesReader {
 
     private static Properties properties;
