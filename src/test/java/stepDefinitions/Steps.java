@@ -39,7 +39,7 @@ public class Steps {
     public void checkThatNumberOfViewsIsGreaterThanNumViews(int numViews) {
         for (int i = 0; i < path.getList("patterns.pattern").size(); i++) {
             Assert.assertTrue(ApiHelper.compareTwoIntegers(path.getInt("patterns.pattern[" + i + "].numViews"), numViews), path.getInt("patterns.pattern[" + i + "].numViews") + " is less than " + numViews);
-            System.out.println(i + "  " + path.getInt("patterns.pattern[" + i + "].numViews"));
+            System.out.println("Element "+i + " is  " + path.getInt("patterns.pattern[" + i + "].numViews"));
         }
     }
 }
