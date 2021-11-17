@@ -16,8 +16,8 @@ import static io.restassured.path.xml.XmlPath.CompatibilityMode.HTML;
 
 public class Steps {
 
-    String URL;
-    XmlPath path;
+    private String URL;
+    private XmlPath path;
 
     @Given("Color Patterns Endpoint")
     public void readTestData() {
