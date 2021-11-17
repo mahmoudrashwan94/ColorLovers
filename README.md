@@ -23,4 +23,4 @@ This is a simple project for Api testing using REST Assured with Java and Cucumb
 * Running CucumberIntegrationTest class 
   > mvn test -Dtest=CucumberIntegrationTest
 ## Reporting 
-   Path of the report : target/cucumber-reports/journeyReport1.html
+   Path of the report : target/cucumber-reports/PatternsReport.html
